@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 4
+Title "Processor + USB"
+Date "2020-06-13"
+Rev "1"
+Comp "Rachel Mant"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 4700 3700 0    39   Input ~ 0
+~RESET
+Text HLabel 4700 3800 0    39   Input ~ 0
+WAKEUP
+Text HLabel 6300 4300 2    39   Input ~ 0
+CLKOUT
+Text HLabel 4700 5200 0    39   BiDi ~ 0
+SCL
+Text HLabel 4700 5100 0    39   BiDi ~ 0
+SDA
+$Comp
+L MCU_Cypress:CY7C68013A-56LTX U1
+U 1 1 5EE59E92
+P 5500 4000
+F 0 "U1" H 6050 5950 50  0000 C CNN
+F 1 "CY7C68013A-56LTX" V 5500 4000 50  0000 C CNN
+F 2 "DX-MON:QFN-56-1EP_8x8mm_P0.5mm_EP4.5x5.2mm" H 5500 1650 50  0001 C CNN
+F 3 "http://www.cypress.com/file/138911/download" H 5500 4200 50  0001 C CNN
+	1    5500 4000
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	6400 2200 6500 2100
+Entry Wire Line
+	6400 2900 6500 2800
+Entry Wire Line
+	6400 2800 6500 2700
+Entry Wire Line
+	6400 2700 6500 2600
+Entry Wire Line
+	6400 2600 6500 2500
+Entry Wire Line
+	6400 2500 6500 2400
+Entry Wire Line
+	6400 2400 6500 2300
+Entry Wire Line
+	6400 2300 6500 2200
+Text Label 6250 2300 0    39   ~ 0
+PB1
+Text Label 6250 2400 0    39   ~ 0
+PB2
+Text Label 6250 2500 0    39   ~ 0
+PB3
+Text Label 6250 2600 0    39   ~ 0
+PB4
+Text Label 6250 2700 0    39   ~ 0
+PB5
+Text Label 6250 2800 0    39   ~ 0
+PB6
+Text Label 6250 2900 0    39   ~ 0
+PB7
+Wire Wire Line
+	6200 2200 6400 2200
+Wire Wire Line
+	6200 2300 6400 2300
+Wire Wire Line
+	6200 2400 6400 2400
+Wire Wire Line
+	6200 2500 6400 2500
+Wire Wire Line
+	6200 2600 6400 2600
+Wire Wire Line
+	6200 2700 6400 2700
+Wire Wire Line
+	6200 2800 6400 2800
+Wire Wire Line
+	6200 2900 6400 2900
+Entry Wire Line
+	6400 3500 6500 3400
+Entry Wire Line
+	6400 3600 6500 3500
+Entry Wire Line
+	6400 3700 6500 3600
+Entry Wire Line
+	6400 3400 6500 3300
+Entry Wire Line
+	6500 3200 6400 3300
+Entry Wire Line
+	6500 3100 6400 3200
+Entry Wire Line
+	6500 3000 6400 3100
+Entry Wire Line
+	6500 2900 6400 3000
+Wire Wire Line
+	6200 3000 6400 3000
+Wire Wire Line
+	6400 3100 6200 3100
+Wire Wire Line
+	6200 3200 6400 3200
+Wire Wire Line
+	6400 3300 6200 3300
+Wire Wire Line
+	6200 3400 6400 3400
+Wire Wire Line
+	6400 3500 6200 3500
+Wire Wire Line
+	6200 3600 6400 3600
+Wire Wire Line
+	6400 3700 6200 3700
+Text Label 6250 3100 0    39   ~ 0
+PD1
+Text Label 6250 3200 0    39   ~ 0
+PD2
+Text Label 6250 3300 0    39   ~ 0
+PD3
+Text Label 6250 3400 0    39   ~ 0
+PD4
+Text Label 6250 3500 0    39   ~ 0
+PD5
+Text Label 6250 3600 0    39   ~ 0
+PD6
+Text Label 6250 3700 0    39   ~ 0
+PD7
+Wire Bus Line
+	6500 3250 7500 3250
+Connection ~ 6500 3250
+Entry Wire Line
+	6500 5500 6400 5600
+Entry Wire Line
+	6500 5400 6400 5500
+Entry Wire Line
+	6500 5300 6400 5400
+Entry Wire Line
+	6500 5200 6400 5300
+Entry Wire Line
+	6500 5100 6400 5200
+Entry Wire Line
+	6500 5000 6400 5100
+Entry Wire Line
+	6500 4900 6400 5000
+Entry Wire Line
+	6500 4800 6400 4900
+Wire Wire Line
+	6400 4900 6200 4900
+Wire Wire Line
+	6200 5000 6400 5000
+Wire Wire Line
+	6400 5100 6200 5100
+Wire Wire Line
+	6200 5200 6400 5200
+Wire Wire Line
+	6400 5300 6200 5300
+Wire Wire Line
+	6200 5400 6400 5400
+Wire Wire Line
+	6400 5500 6200 5500
+Wire Wire Line
+	6200 5600 6400 5600
+Text Label 6250 4900 0    39   ~ 0
+PA0
+Wire Bus Line
+	6500 5150 7500 5150
+Connection ~ 6500 5150
+Text Label 6250 5000 0    39   ~ 0
+PA1
+Text Label 6250 5100 0    39   ~ 0
+PA2
+Text Label 6250 5200 0    39   ~ 0
+PA3
+Text Label 6250 5300 0    39   ~ 0
+PA4
+Text Label 6250 5400 0    39   ~ 0
+PA5
+Text Label 6250 5500 0    39   ~ 0
+PA6
+Text Label 6250 5600 0    39   ~ 0
+PA7
+Wire Wire Line
+	4700 3700 4800 3700
+Wire Wire Line
+	4800 3800 4700 3800
+Wire Wire Line
+	6200 4300 6300 4300
+Wire Wire Line
+	4700 5200 4800 5200
+Wire Wire Line
+	4800 5100 4700 5100
+$Comp
+L Device:Crystal_GND24 Y1
+U 1 1 5EE6FC04
+P 4400 2850
+F 0 "Y1" V 4350 2500 50  0000 L CNN
+F 1 "24MHz" V 4450 2350 50  0000 L CNN
+F 2 "osc:SMD2520" H 4400 2850 50  0001 C CNN
+F 3 "~" H 4400 2850 50  0001 C CNN
+	1    4400 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4600 2850 4700 2850
+Wire Wire Line
+	4800 3100 4400 3100
+Wire Wire Line
+	4400 3100 4400 3000
+Wire Wire Line
+	4400 2600 4800 2600
+Wire Wire Line
+	4400 2600 4400 2700
+$Comp
+L Device:C_Small C2
+U 1 1 5EE79398
+P 4200 3100
+F 0 "C2" V 4450 3100 50  0000 C CNN
+F 1 "15pF" V 4350 3100 50  0000 C CNN
+F 2 "rcl:C0603" H 4200 3100 50  0001 C CNN
+F 3 "~" H 4200 3100 50  0001 C CNN
+	1    4200 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 5EE7A5BA
+P 4200 2600
+F 0 "C1" V 3971 2600 50  0000 C CNN
+F 1 "15pF" V 4062 2600 50  0000 C CNN
+F 2 "rcl:C0603" H 4200 2600 50  0001 C CNN
+F 3 "~" H 4200 2600 50  0001 C CNN
+	1    4200 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3100 4400 3100
+Connection ~ 4400 3100
+Wire Wire Line
+	4400 2600 4300 2600
+Connection ~ 4400 2600
+$Comp
+L power:GND #PWR0101
+U 1 1 5EE7CA76
+P 3900 3300
+F 0 "#PWR0101" H 3900 3050 50  0001 C CNN
+F 1 "GND" H 3905 3127 50  0000 C CNN
+F 2 "" H 3900 3300 50  0001 C CNN
+F 3 "" H 3900 3300 50  0001 C CNN
+	1    3900 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 2600 4100 2600
+Wire Wire Line
+	4200 2850 3900 2850
+Connection ~ 3900 2850
+Wire Wire Line
+	3900 2850 3900 2600
+Wire Wire Line
+	3900 3100 4100 3100
+Connection ~ 3900 3100
+Wire Wire Line
+	3900 3100 3900 2850
+Wire Wire Line
+	4700 2850 4700 3200
+Wire Wire Line
+	3900 3100 3900 3200
+Wire Wire Line
+	3900 3200 4700 3200
+Connection ~ 3900 3200
+Wire Wire Line
+	3900 3200 3900 3300
+Wire Wire Line
+	5300 2000 5300 1900
+Wire Wire Line
+	5300 1900 5400 1900
+Wire Wire Line
+	5500 1900 5500 2000
+Wire Wire Line
+	5400 1900 5400 1800
+Connection ~ 5400 1900
+Wire Wire Line
+	5400 1900 5500 1900
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5EE88B2B
+P 5400 1800
+F 0 "#PWR0102" H 5400 1650 50  0001 C CNN
+F 1 "+3.3V" H 5415 1973 50  0000 C CNN
+F 2 "" H 5400 1800 50  0001 C CNN
+F 3 "" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0103
+U 1 1 5EE88E89
+P 5500 6200
+F 0 "#PWR0103" H 5500 5950 50  0001 C CNN
+F 1 "GND" H 5505 6027 50  0000 C CNN
+F 2 "" H 5500 6200 50  0001 C CNN
+F 3 "" H 5500 6200 50  0001 C CNN
+	1    5500 6200
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5100 6000
+Wire Wire Line
+	5300 6000 5300 6100
+Wire Wire Line
+	5500 6100 5500 6000
+Wire Wire Line
+	5500 6100 5500 6200
+Wire Bus Line
+	7500 2450 6500 2450
+Connection ~ 6500 2450
+NoConn ~ 6200 3900
+NoConn ~ 6200 4000
+NoConn ~ 6200 4200
+NoConn ~ 6200 4500
+NoConn ~ 6200 4600
+NoConn ~ 6200 4700
+Text Label 6250 2200 0    39   ~ 0
+PB0
+Text Label 6250 3000 0    39   ~ 0
+PD0
+Wire Wire Line
+	4400 3100 4400 3300
+Wire Wire Line
+	4400 2600 4400 2400
+Text Label 4400 2400 1    39   ~ 0
+OSC+
+Text Label 4400 3300 3    39   ~ 0
+OSC-
+Text HLabel 7500 2450 2    39   BiDi ~ 0
+PB[0..7]
+Text HLabel 7500 3250 2    39   BiDi ~ 0
+PD[0..7]
+Text HLabel 7500 5150 2    39   BiDi ~ 0
+PA[0..7]
+$Comp
+L DX_MON:USB-Micro-B JP1
+U 1 1 5EE7078D
+P 3000 4400
+F 0 "JP1" H 3053 4886 59  0000 C CNN
+F 1 "USB-Micro-B" H 3053 4781 59  0000 C CNN
+F 2 "USB:MICRO-USB-B-(IN_PCB)" H 3050 4400 59  0001 C CNN
+F 3 "" H 3050 4400 59  0001 C CNN
+	1    3000 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 4300 3650 4300
+Wire Wire Line
+	4800 4400 3650 4400
+Wire Wire Line
+	5700 6000 5700 6100
+Wire Wire Line
+	5700 6100 5500 6100
+Connection ~ 5500 6100
+Wire Wire Line
+	5300 6100 5500 6100
+Wire Wire Line
+	3250 4200 3450 4200
+Wire Wire Line
+	3450 4200 3450 4100
+Wire Wire Line
+	3250 4600 3350 4600
+Wire Wire Line
+	3350 4600 3350 4700
+Wire Wire Line
+	3650 4300 3650 4200
+Connection ~ 3650 4300
+Wire Wire Line
+	3650 4300 4800 4300
+Wire Wire Line
+	3650 4400 3650 4500
+Connection ~ 3650 4400
+Wire Wire Line
+	3650 4400 3250 4400
+Text Label 3650 4200 1    59   ~ 0
+D+
+Text Label 3650 4500 3    59   ~ 0
+D-
+$Comp
+L power:GND #PWR07
+U 1 1 5EF90B23
+P 3350 4700
+F 0 "#PWR07" H 3350 4450 50  0001 C CNN
+F 1 "GND" H 3355 4527 50  0000 C CNN
+F 2 "" H 3350 4700 50  0001 C CNN
+F 3 "" H 3350 4700 50  0001 C CNN
+	1    3350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:Earth #PWR05
+U 1 1 5EF90E05
+P 2900 4900
+F 0 "#PWR05" H 2900 4650 50  0001 C CNN
+F 1 "Earth" H 2900 4750 50  0001 C CNN
+F 2 "" H 2900 4900 50  0001 C CNN
+F 3 "~" H 2900 4900 50  0001 C CNN
+	1    2900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 4800 2900 4900
+Text HLabel 3450 4100 1    39   Output ~ 0
+VBUS
+Wire Bus Line
+	6500 4800 6500 5150
+Wire Bus Line
+	6500 5150 6500 5500
+Wire Bus Line
+	6500 2900 6500 3250
+Wire Bus Line
+	6500 3250 6500 3600
+Wire Bus Line
+	6500 2100 6500 2450
+Wire Bus Line
+	6500 2450 6500 2800
+$EndSCHEMATC
