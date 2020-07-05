@@ -835,4 +835,15 @@ Wire Wire Line
 	5350 3150 5350 3250
 Wire Wire Line
 	5350 3550 5350 3450
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5F02A9BA
+P 10500 1000
+F 0 "LOGO1" H 10500 1275 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10500 775 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" H 10500 1000 50  0001 C CNN
+F 3 "~" H 10500 1000 50  0001 C CNN
+	1    10500 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
